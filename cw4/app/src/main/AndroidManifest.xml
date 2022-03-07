@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutorial.cw4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calculator_bro"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/calculator_bro"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cw4">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

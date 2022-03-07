@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/btn_calculate_cesign.xml" value="0.226" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_1.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_2.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_3.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_background.xml" value="0.226" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_edit_text1.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_edit_text2.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_edit_text3.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_edit_text4.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_edt_ring_bg.xml" value="0.152" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_edt_ring_bg2.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_list.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_purple.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/drawable/gradient_waterblue.xml" value="0.156" />
+        <entry key="..\:/Java/cw4/app/src/main/res/layout/activity_main.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

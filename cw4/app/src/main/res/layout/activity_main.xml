@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="194dp"
+            android:layout_height="211dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="Its Santa bruv"
+            app:srcCompat="@drawable/calculator_bro" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotoserif_blackitalic"
+            android:shadowColor="#7683F8"
+            android:shadowDx="5"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="Grade Calculator"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="33sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp">
+
+
+        <EditText
+            android:id="@+id/edtNumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/gradient_edt_ring_bg"
+            android:ems="10"
+            android:fontFamily="@font/robotoserif_lightitalic"
+            android:hint="Quizez📃  15%"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:shadowColor="#38EFB5"
+            android:shadowDx="2"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/edtNumber2"
+            android:layout_width="213dp"
+            android:layout_height="69dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toEndOf="@+id/edtNumber1"
+            android:background="@drawable/gradient_edt_ring_bg"
+            android:ems="10"
+            android:fontFamily="@font/robotoserif_lightitalic"
+            android:hint="Homework🖊  25%"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:shadowColor="#0E61AA"
+            android:shadowDx="2"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/edtNumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_below="@+id/edtNumber1"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/gradient_edt_ring_bg"
+            android:ems="10"
+            android:fontFamily="@font/robotoserif_lightitalic"
+            android:hint="Mid-Terms🧧  30%"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:shadowColor="#FF5454"
+            android:shadowDx="2"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/edtNumber4"
+            android:layout_width="211dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/edtNumber2"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="14dp"
+            android:layout_toEndOf="@+id/edtNumber3"
+            android:background="@drawable/gradient_edt_ring_bg"
+            android:ems="10"
+            android:fontFamily="@font/robotoserif_lightitalic"
+            android:hint="Finals🎓  30%"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:shadowColor="#4A4A4A"
+            android:shadowDx="2"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="268dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_purple"
+        android:fontFamily="@font/robotoserif_blackitalic"
+        android:shadowColor="#7683F8"
+        android:shadowDx="3"
+        android:shadowDy="1.5"
+        android:shadowRadius="0.5"
+        android:text="Calculate!"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="268dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_waterblue"
+        android:fontFamily="@font/robotoserif_blackitalic"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#4e4376"
+        android:shadowDx="3"
+        android:shadowDy="1.5"
+        android:shadowRadius="0.5"
+        android:text="Reset!"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/robotoserif_blackitalic"
+        android:layout_marginTop="25dp"
+        android:shadowColor="#7683F8"
+        android:shadowDx="7"
+        android:shadowDy="5"
+        android:shadowRadius="1"
+        android:text="Total"
+        android:textAlignment="center"
+        android:textColor="#EEFFED"
+        android:textSize="40sp" />
+
+</LinearLayout>

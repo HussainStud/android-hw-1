@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cw4</string>
+    <string name="type_a_number">Type a Number</string>
+    <string name="type_a_second_number">Type a Second Number</string>
+</resources>
